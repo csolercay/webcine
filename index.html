@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags bàsics -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Títol de la pàgina -->
+        <title>PROJECTE 1</title>
+
+        <!-- Enllaç al full d'estil principal -->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Enllaç a la llibreria d'icones Boxicons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header class="header" id="inicio">
+
+            <!-- Botó del menú tipus hamburguesa -->
+            <img src="img/hamburguesa.svg" alt="menu" class="hamburguer">
+
+            <!-- Logo amb enllaç a la pàgina d'inici -->
+            <a href="home.html"><img src="img/logo.png" alt="logo" class="logo"></a> 
+
+            <!-- Menú de navegació principal -->
+            <nav class="menu-navegacion">
+                <ul>
+                    <li><a href="home.html">Home</a>
+                    <li><a href="Festival.html">Festival</a>
+                    <li><a href="Programa.html">Programa</a>
+                    <li><a href="Pel·licules.html">Pel·licules</a>
+                    <li><a href="#Contacto">Entrades</a></li>
+                </ul>
+            </nav>
+
+            <!-- Contenidor del títol principal -->
+            <div class="contenedor head">
+                <h1 class="titulo">FANTÀSTIK VISIONS</h1>
+            </div>
+        </header>
+        <main>
+
+            <!-- Secció de serveis -->
+            <section class="services contenedor">
+                <h2 class="subtitulo">Resum del festival</h2>
+
+                <!-- Contenidor del contingut de la secció -->
+                <div class="contenedor-servicio">
+                    <img src="img/cine.jpeg" alt="foto">
+                    <div class="checklist-servicio">
+                        <div class="service">
+                            
+                            <!-- Text descriptiu sobre el festival -->
+                            <p>El festival Fantàstik Visions és un esdeveniment dedicat al cinema fantàstic en totes les seves formes, incloent-hi 
+                                cortometratges i llargmetratges. Aquest festival posa èmfasi en projectes que exploren mons alternatius, la fantasia 
+                                i històries que desafien la realitat, oferint als espectadors una experiència creativa i innovadora. A més de les 
+                                projeccions, el festival organitza concursos per premiar les millors obres, donant espai a noves veus creatives dins 
+                                el gènere fantàstic. Així, Fantàstik Visions es converteix en una plataforma per a cineastes independents que ofereixen 
+                                una visió única i singular del cinema fantàstic, trencant amb les convencions de la narrativa tradicional.
+                            </p>
+                            
+                        </div>
+
+                        <!-- Botó amb enllaç a més informació -->
+                        <a href="Festival.html"><button class="descobreix">Descobreix</button></a>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Secció de pel·lícules destacades -->
+            <section class="peliculas destacadas">
+                <h2 class="subtitulo">Pel·licules destacades</h2>
+
+                <!-- Contenidor de cada pel·lícula destacada -->
+                <div class="contenedor-peliculas">
+                    <img class="pelicula1" src="img/pelicula1.png" alt="portada peli">
+                    <div class="datos">
+                        <h3>Apocalipsis Z: El principio del fin</h3>
+                        <p>Carles Torrens</p>
+                        <p>2023 Duración 112 min.</p>
+                    </div>
+                </div>
+                <div class="contenedor-peliculas">
+                    <img class="pelicula1" src="img/peli2.png" alt="portada peli">
+                    <div class="datos">
+                        <h3>A Different Man</h3>
+                        <p>Aaron Schimberg</p>
+                        <p>2024 Duración 112 min.</p>
+                    </div>
+                </div>
+                <div class="contenedor-peliculas">
+                    <img class="pelicula1" src="img/peli3.png" alt="portada peli">
+                    <div class="datos">
+                        <h3>Arcadian</h3>
+                        <p>Benjamin Brewer</p>
+                        <p>2024 Duración 92 min.</p>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!-- Botó final per descobrir més -->
+            <div class="contenedorr">
+                <a href="Pel·licules.html"><button class="descobreixx">Descobreix</button></a>
+            </div>            
+        </main>
+
+        <!-- Peu de pàgina -->
+        <footer id="Contacto">
+            <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <a href="home.html"><img src="img/logo.png" alt="logo" class="logo"></a> 
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram'></i> 
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i> 
+                    </a>
+                    <a href="./" class="social-media-icon">
+                       <i class='bx bxl-facebook-circle' ></i>  
+                    </a>
+                </div>
+            </div>
+            <div class="line"></div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="js/menu.js"></script>
+        <script src="js/lightbox.js"></script>
+    </body>
+</html>
